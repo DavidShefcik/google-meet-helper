@@ -1,0 +1,14 @@
+name: Release Please
+
+on:
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - "main"
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Release Please
+        run: echo "test"
