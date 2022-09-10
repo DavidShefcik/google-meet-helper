@@ -1,0 +1,14 @@
+name: Code Check
+
+on:
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - "main"
+
+jobs:
+  code-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code Check
+        run: echo "test"
